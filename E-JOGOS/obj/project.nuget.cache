@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "VPlQIfh2VAobA4bTRCmFpaAEvQOFk0j+SPO8zV7md80fHH7ftlGyvTMdgjGEuOGS+2shEpZXbxohWW22mb0eLg==",
+  "success": true,
+  "projectFilePath": "/Users/endrewmota/Projects/E-JOGOS/E-JOGOS/E-JOGOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/endrewmota/.nuget/packages/carbon.data.protection/1.5.0/carbon.data.protection.1.5.0.nupkg.sha512",
+    "/Users/endrewmota/.nuget/packages/carbon.packaging/1.50.0/carbon.packaging.1.50.0.nupkg.sha512",
+    "/Users/endrewmota/.nuget/packages/carbon.storage/3.0.1/carbon.storage.3.0.1.nupkg.sha512",
+    "/Users/endrewmota/.nuget/packages/carbon.versioncontrol/2.6.0/carbon.versioncontrol.2.6.0.nupkg.sha512",
+    "/Users/endrewmota/.nuget/packages/carbon.versioning/2.0.1/carbon.versioning.2.0.1.nupkg.sha512",
+    "/Users/endrewmota/.nuget/packages/github/1.34.0/github.1.34.0.nupkg.sha512"
+  ],
+  "logs": []
+}

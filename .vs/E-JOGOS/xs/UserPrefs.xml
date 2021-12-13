@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{1F0D489D-94D8-40E7-A095-E940C606C1C9}|Default">
+  <MonoDevelop.Ide.ItemProperties.E-JOGOS FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="E-JOGOS/Controllers/EquipeController.cs">
+    <Files>
+      <File FileName="E-JOGOS/Controllers/HomeController.cs" Line="29" Column="10" />
+      <File FileName="E-JOGOS/Models/Equipe.cs" />
+      <File FileName="E-JOGOS/Models/EjogosBase.cs" />
+      <File FileName="E-JOGOS/Interface/IEquipes.cs" />
+      <File FileName="E-JOGOS/Controllers/EquipeController.cs" Line="31" Column="62" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="E-JOGOS" expanded="True">
+            <Node name="E-JOGOS" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="EquipeController.cs" selected="True" />
+              </Node>
+              <Node name="Interface" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
