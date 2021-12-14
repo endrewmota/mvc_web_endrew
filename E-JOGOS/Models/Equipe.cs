@@ -1,58 +1,58 @@
-﻿using System;
+﻿using E_JOGOS.Interface;
 using System.Collections.Generic;
 using System.IO;
-using E_JOGOS.Interface;
 
 namespace E_JOGOS.Models
 {
+
+    // : HERANÇA -> EjogosBase
     public class Equipe : EjogosBase, IEquipe
     {
-        //CONSTRUTOR CTOR.
+        //CONSTRUTOR  CTOR.
 
-        //FUNCAO QUE VAI EXECUTAR/INICIAR ASSIM QUE A CLASSE FOR INSTANCIADA
+        //FUNCAO QUE VAI EXECUTAR/INICIAR ASSIM QUE A CLASSE FOI INSTANCIADO.
 
-        private const string path = "Database / equipe.csv";
+        private const string path = "Database/equipe.csv";
+
         public Equipe()
         {
             CreateFolderAndFile(path);
         }
 
         public int IdEquipe { get; set; }
-
         public string Nome { get; set; }
-
         public string Imagem { get; set; }
 
 
         //funcao que vai preparar/converter de string para o
-        //tipo de equipe
+        //tipo equipe.
 
-        //private string
+        // private string 
+
+
         private string Prepare(Equipe e)
         {
-            return $"{e.IdEquipe};{e.Nome};{e.Imagem};";
+            return $"{e.IdEquipe};{e.Nome};{e.Imagem}";
         }
+
 
         public void Create(Equipe nova_equipe)
         {
             //receber um objeto de equipe.
-            //e gravar no csv.
+            //e gravar no CSV.
+            //
 
-            // "item;item;item;"
+            //  "item;item;item;";
 
             string[] linha = { Prepare(nova_equipe) };
-       
+
             File.AppendAllLines(path, linha);
-
         }
-
 
         public void Delete(int idEquipe)
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
-
-
 
         public List<Equipe> ReadAll()
         {
@@ -61,7 +61,7 @@ namespace E_JOGOS.Models
 
             foreach (string item in linhas)
             {
-                Equipe equipe = new Equipe;
+                Equipe equipe = new Equipe();
                 equipe.IdEquipe = int.Parse(item.Split(';')[0]);
                 equipe.Nome = item.Split(';')[1];
                 equipe.Imagem = item.Split(';')[2];
@@ -70,11 +70,12 @@ namespace E_JOGOS.Models
             }
 
             return equipes;
+
         }
 
         public void Update(Equipe equipe)
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
     }
 }

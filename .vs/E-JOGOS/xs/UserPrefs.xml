@@ -1,34 +1,40 @@
-﻿<Properties StartupConfiguration="{1F0D489D-94D8-40E7-A095-E940C606C1C9}|Default">
-  <MonoDevelop.Ide.ItemProperties.E-JOGOS FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="E-JOGOS/Controllers/EquipeController.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{1F0D489D-94D8-40E7-A095-E940C606C1C9}|Default">
+  <MonoDevelop.Ide.ItemProperties.E-JOGOS PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="E-JOGOS/Controllers/HomeController.cs" Line="29" Column="10" />
-      <File FileName="E-JOGOS/Models/Equipe.cs" />
+      <File FileName="E-JOGOS/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="E-JOGOS/Views/Home/Index.cshtml" />
+      <File FileName="E-JOGOS/Views/Home/Privacy.cshtml" />
+      <File FileName="E-JOGOS/Views/Shared/_Layout.cshtml" />
+      <File FileName="E-JOGOS/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="E-JOGOS/Program.cs" />
+      <File FileName="E-JOGOS/Models/Equipe.cs" Line="60" Column="1" />
       <File FileName="E-JOGOS/Models/EjogosBase.cs" />
-      <File FileName="E-JOGOS/Interface/IEquipes.cs" />
-      <File FileName="E-JOGOS/Controllers/EquipeController.cs" Line="31" Column="62" />
+      <File FileName="E-JOGOS/Controllers/EquipeController.cs" Line="26" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="E-JOGOS" expanded="True">
+          <Node name="E-JOGOS" expanded="True" selected="True">
             <Node name="E-JOGOS" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="EquipeController.cs" selected="True" />
-              </Node>
-              <Node name="Interface" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Database" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/endrewmota/Projects/E-JOGOS/E-JOGOS/Controllers/EquipeController.cs" relfile="E-JOGOS/Controllers/EquipeController.cs" line="26" column="13" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
