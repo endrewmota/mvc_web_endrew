@@ -1,35 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using E_JOGOS.Models;
+﻿using E_JOGOS.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace E_JOGOS.Controllers
 {
     public class EquipeController : Controller
     {
+        //IActionResult representa retorno de status HTTP.
+
         Equipe equipeModel = new Equipe();
 
 
-        // GET: /<controller>/
+        //500 erro
+
+        //200 OK
         public IActionResult Index()
         {
-            //VIEW = responssavel pela exibicao da frontend.
+            //VIEW = responsavel pela exibição do frontend.
 
-            //ViewBag = armazenar as informacoes da backend para serem acessadas
-            //no fronetend. (CONTROLLER PARA VIEW
+
+            //ViewBag = ARMAZENAS AS INFORMACOES DO BACKEND
+            // PARA SEREM ACESSADAS NO FRONTEND. (CONTROLLER PARA A  VIEW)
 
             ViewBag.Equipes = equipeModel.ReadAll();
 
             return View();
         }
 
+
+
         public IActionResult Cadastrar(IFormCollection form)
         {
+
             //criar um objeto equipe a partir do frontend (IFormCollection)
             Equipe nova_equipe = new Equipe();
             nova_equipe.IdEquipe = int.Parse(form["IdEquipe"]);
@@ -44,6 +46,14 @@ namespace E_JOGOS.Controllers
 
 
             return LocalRedirect("~/Equipe");
+
         }
+
+
+
+
+
+
+
     }
 }

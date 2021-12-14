@@ -1,9 +1,12 @@
-﻿using System;
+﻿using E_JOGOS.Models;
 using System.Collections.Generic;
-using E_JOGOS.Models;
 
 namespace E_JOGOS.Interface
 {
+    /// <summary>
+    /// RESPONSÁVEL POR DETERMINAR QUAIS METODOS UMA CLASSE TERÁ
+    /// É O CONTRATO DA CLASSE.
+    /// </summary>
     public interface IEquipe
     {
         //CREATE
